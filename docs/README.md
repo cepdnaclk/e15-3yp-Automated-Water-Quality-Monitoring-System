@@ -10,9 +10,9 @@ title: Automated Water Quality Monitoring System
 ---
 
 ## Team
--  E/15/077, K.P.W.A.K.K. Dilhani, [e15077@eng.pdn.ac.lk](mailto:e15077@eng.pdn.ac.lk)
--  E/15/279, L.S.W.S. Premathilaka, [e15279@eng.pdn.ac.lk](mailto:e15279@eng.pdn.ac.lk)
--  E/15/211, S.A.I. Maduwanthi, [e15211@eng.pdn.ac.lk](mailto:e15211@eng.pdn.ac.lk)
+-  E/15/077, K.P.W.A.K.K. Dilhani, [kshithija.dilhani@gmail.com](mailto:kshithija.dilhani@gmail.com)
+-  E/15/279, L.S.W.S. Premathilaka, [wathsaripremathilaka@gmail.com](mailto:wathsaripremathilaka@gmail.com)
+-  E/15/211, S.A.I. Maduwanthi, [ishmadhuwanthi@gmail.com](mailto:ishmadhuwanthi@gmail.com)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -71,11 +71,11 @@ Focus – pH sensor, web site
 Inputs and expected output are like below.
 
 
-PH <6.5 --> Alert 
+PH <6.5 --> Alert
 
-PH  6.5 – 7. 5 --> Normal 
+PH  6.5 – 7. 5 --> Normal
 
-PH >7.5 --> Alert 
+PH >7.5 --> Alert
 
 
 Assumption – temperature 25(C)
@@ -86,7 +86,7 @@ Testing Process - In our system we are designing it to give alert when the varia
 Normally pH value of treated water should be in the range of 6.5 – 7.5.Then we are going to test our system using this case.
 By using soap water ,normal water and leman water it can be tested.
 
- 
+
 
 Unit Testing
 
@@ -100,7 +100,7 @@ Inputs and expected outputs –pH value of water is going to be changed by using
         14.0 - Sodium Hydroxide (NaOH)
 
 
-Assumption – temperature 25(C) 
+Assumption – temperature 25(C)
 Testing Environment – pH sensor is needed
 
  Load Testing
@@ -109,7 +109,7 @@ Inputs – increase the number of nodes up to 30 nodes for the system using
 
 dummy values
 Expected output –system should operate properly as before
-Assumption - temperature 25(C) 
+Assumption - temperature 25(C)
 Testing Environment – pH sensor ,Turbidy sensors,wifi connection and web site
 
 ## Conclusion
